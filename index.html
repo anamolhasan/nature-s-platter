@@ -8,7 +8,7 @@
     <!-- font awsone cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- tailwind cdn -->
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -51,14 +51,15 @@
        <!-- Services -->
         <section class="container mx-auto mb-28">
             <h2 class="font-semibold text-4xl text-green-600 mb-10">Services</h2>
-            <div class="flex flex-col lg:flex-row justify-between gap-10 ">
+            <div class="flex flex-col lg:flex-row  gap-10 ">
                 <div class="card bg-[#EFEBE3] ">
                     <figure class="px-10 pt-10">
                       <img src="./assets/service.png"
-                        alt="Shoes"
+                        alt="Services"
                         class="rounded-full bg-white p-9" />
                     </figure>
                     <div class="card-body items-center text-center">
+                      <h2 class=" text-2xl md:text-5xl font-bold">Services</h2>
                       <p>We provide fresh, chemical-free, organic vegetables directly sourced from farmers. Delivered right to your doorstep for a healthy lifestyle.</p>
                    
                     </div>
@@ -67,11 +68,12 @@
                     <figure class="px-10 pt-10">
                       <img
                         src="./assets/delivery.png"
-                        alt="Shoes"
+                        alt="Services"
                         class="rounded-full bg-white p-9" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <p>Orders are processed promptly, and you can expect your vegetables to be delivered within 24 to 48 hours, ensuring they reach you fresh and in perfect condition.</p>
+                      <h2 class=" text-2xl md:text-5xl font-bold">Services</h2>
+                      <p>Orders are processed promptly, and you can expect your vegetables to be delivered within 24 to 48 hours, ensuring they reach you fresh and in .</p>
                     </div>
                   </div>
                   <div class="card bg-[#EFEBE3] ">
@@ -82,6 +84,7 @@
                         class="rounded-full bg-white p-9" />
                     </figure>
                     <div class="card-body items-center text-center">
+                      <h2 class=" text-2xl md:text-5xl font-bold">Services</h2>
                       <p>We provide healthy, organic vegetables, chemical-free fruits, and superfoods that promote your well-being and nutrition..</p>
                     </div>
                   </div>
@@ -94,7 +97,7 @@
             <div class="flex gap-10 flex-col items-center lg:flex-row p-10">
               <img class="rounded-full "
                 src="https://naturesemporium.com/wp-content/uploads/bb-plugin/cache/Natures-Emporium-Organic-Produce-Department-1-circle-f299186f5a791968576fbfc9b81167a1-57222902d6203.jpg" />
-              <div>
+              <div class="text-center md:text-left">
                 <h1 class="text-5xl font-bold">Explore Our Stores</h1>
                 <p class="py-6">At Nature's Emporium, we believe that good health begins on farms that grow in partnership with Nature. That's why we've dedicated our family-owned health food market's to the goodness of farm-fresh, always organic fresh produce, natural and organic freshly prepared fo0ds and grocery, a vibrant juice bar and cafe, the world's finest vitamins and supplements, as well as an incredible variety of all-natural and organic skincare, cosmetics and personal care supplies safe for the whole family (baby too!). We invite you to explore our stores - and join us on the road to good health!</p>
                 <button class="btn btn-primary">Click Here to explore our Stores!</button>
@@ -105,14 +108,14 @@
         <!-- Popular Products -->
         <section class="bg-[#EFEBE3] mb-28">
            <div class="container mx-auto py-28">
-            <h2 class="font-semibold text-4xl  mb-10">Popular Products</h2>
-            <div class="hero">
+            <h2 class="font-bold text-4xl  mb-10">Popular Products</h2>
+            <div class="">
                 <div class=" flex  flex-col lg:flex-row md:gap-6 gap-5">
                   <div class="bg-gradient-to-r from-green-500 to-blue-100  w-full mx-auto p-5 pb-0 rounded-3xl relative">
-                    <div class="space-y-3 absolute ">
+                    <div class="space-y-3 absolute top-10">
                       <h2 class="text-4xl text-white font-bold ">30% Off</h2>
                       <p class="text-xl">Discover a world of trests toys and essentisls handpicked for</p>
-                      <button class="btn">Buy Now</button>
+                      <button class="bg-sky-600 py-3 px-5 text-white rounded-2xl font-semibold">Buy Now</button>
                     </div>
                     <div class="flex justify-end pt-24">
                       <img src="./assets/vegetable-offer.png"  class=""/>
@@ -121,8 +124,8 @@
 
                   <div class="grid grid-cols-2 lg:grid-cols-3 gap-5 ">
 
-                    <div class="hero bg-base-200 rounded-2xl ">
-                        <div class="hero-content flex justify-start">
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
                             <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
                             class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
                           <div>
@@ -132,19 +135,8 @@
                           </div>
                         </div>
                     </div>
-                    <div class="hero bg-base-200">
-                        <div class="hero-content flex justify-start">
-                            <img src="https://wallpapers.com/images/hd/fresh-potatoes-black-background-mtc50npnrplo3u7l.png"
-                            class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
-                          <div>
-                            <p>4.5</p>
-                            <h1 class="font-bold">Potato</h1>
-                            <p class="">$39.99 </p>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="hero bg-base-200">
-                        <div class="hero-content flex justify-start">
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
                             <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
                             class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
                           <div>
@@ -154,8 +146,8 @@
                           </div>
                         </div>
                     </div>
-                    <div class="hero bg-base-200">
-                        <div class="hero-content flex justify-start">
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
                             <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
                             class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
                           <div>
@@ -165,8 +157,8 @@
                           </div>
                         </div>
                     </div>
-                    <div class="hero bg-base-200">
-                        <div class="hero-content flex justify-start">
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
                             <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
                             class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
                           <div>
@@ -176,8 +168,8 @@
                           </div>
                         </div>
                     </div>
-                    <div class="hero bg-base-200">
-                        <div class="hero-content flex justify-start">
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
                             <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
                             class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
                           <div>
@@ -187,6 +179,51 @@
                           </div>
                         </div>
                     </div>
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
+                            <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
+                            class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
+                          <div>
+                            <p>4.5</p>
+                            <h1 class="font-bold">Office News!</h1>
+                            <p class="">$39.99 </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
+                            <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
+                            class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
+                          <div>
+                            <p>4.5</p>
+                            <h1 class="font-bold">Office News!</h1>
+                            <p class="">$39.99 </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
+                            <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
+                            class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
+                          <div>
+                            <p>4.5</p>
+                            <h1 class="font-bold">Office News!</h1>
+                            <p class="">$39.99 </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="   ">
+                        <div class=" flex bg-base-200 p-5 rounded-2xl">
+                            <img src="https://pluspng.com/img-png/onion-hd-png-home-onion-png-image-more-view-487.png"
+                            class=" rounded-lg p-5 bg-[#EFEBE3] w-2/6" />
+                          <div>
+                            <p>4.5</p>
+                            <h1 class="font-bold">Office News!</h1>
+                            <p class="">$39.99 </p>
+                          </div>
+                        </div>
+                    </div>
+                  
                   </div>
 
                 </div>
@@ -198,25 +235,23 @@
          <!-- Arrival & Offers -->
           <section class="container mx-auto mb-64">
             <h2 class="font-semibold text-4xl text-green-600 mb-10">Arrival & Offers</h2>
-            <div class="hero ">
-                <div class=" flex  flex-col lg:flex-row gap-10 w-full ">
-                    <div class=" flex  flex-1 justify-between items-center bg-green-900  px-10 p-6 rounded-2xl">
-                        <div class="space-y-5 ">
-                            <img src="./assets/dawat-logo.png" alt="">
-                            <button class="btn btn-success lg:px-10 text-white text-sm lg:text-xl">Cook Exotic Dishes</button>
+            <div class="">
+                <div class="flex flex-col md:flex-row   gap-10">
+                    <div class="flex justify-between items-center rounded-2xl bg-green-900 grow py-5 md:px-10">
+                        <div class="space-y-5  ">
+                            <img src="./assets/dawat-logo.png" alt="" class=" ">
+                            <button class="btn btn-success  text-white text-sm lg:text-xl lg:px-10">Cook Exotic Dishes</button>
                             <h3 class="text-2xl md:text-4xl font-semibold text-white">UP to 40% OFF</h3>
                         </div>
-                        <img  src="./assets/dawat-mock-up.png"
-                        class="" />
+                        <img  src="./assets/dawat-mock-up.png" class="w-3/5 " />
                     </div>
-                    <div class=" flex justify-between bg-blue-900 px-10  pt-16 pb-1 w-full lg:w-2/5 rounded-2xl">
+                    <div class="flex justify-between items-center rounded-2xl bg-blue-900 lg:w-2/5 md:p-5">
                         <div class="space-y-5 ">
                             <img src="./assets/india-gate-logo.png" alt="">
-                            <button class="btn bg-[#2A4D97] border-none text-white text-xl">World’s No.1 Rice</button>
-                            <h3 class="text-3xl font-semibold text-white">UP to 40% OFF</h3>
+                            <button class="btn bg-[#2A4D97] border-none text-white text-sm">World’s No.1 Rice</button>
+                            <h3 class="text-2xl md:text-5xl font-semibold text-white">UP to 40% OFF</h3>
                         </div>
-                        <img  src="./assets/india-gate-mock-up.png"
-                        class="  " />
+                        <img  src="./assets/india-gate-mock-up.png" class="w-2/5  " />
                     </div>
                 </div>
               </div>
@@ -226,45 +261,46 @@
      
 
     </main>
+
     <footer class="bg-green-700 ">
 
-      <div class="container mx-auto relative ">
+      <div class="container  relative right-[1%]  md:left-[7%]">
         <!-- Get Grocery News -->
-        <div class="w-full bg-base-200  rounded-3xl  absolute -top-52 md:-top-40  ">
+        <div class=" bg-base-200 rounded-3xl  lg:w-full absolute -top-52   ">
           <div class="flex flex-col md:flex-row justify-around items-center py-5 ">
-            <img src="./assets/vegetable-busket.png"  class="max-w-sm" />
+            <img src="./assets/vegetable-busket.png"  class="" />
             <div class="text-center">
-              <h1 class="text-5xl font-bold">Get Grocery News!</h1>
+              <h1 class=" text-3xl lg:text-5xl font-bold">Get Grocery News!</h1>
               <p class="py-4">Exclusive training tips, ticks, product deals and more.</p>
-              <input class=" w-3/4 md:w-full py-2 px-3 mb-4 block" type="text" placeholder="Enter email"> 
-              <button class="btn btn-primary ">Subscribe</button>
+              <input class=" w-3/4 md:w-full py-2 px-3 mb-4 block mx-auto" type="text" placeholder="Enter email"> 
+              <button class="btn btn-primary ">Subscribe Now</button>
             </div>
           </div>
         </div>
      
       <!-- footer -->
-        <div class="footer   text-base-content pt-96 md:pt-56 pb-16 text-white  justify-between">
-          <aside>
+        <div class="  flex flex-col lg:flex-row pt-96 md:pt-72 pb-16 pl-10 text-white  justify-between gap-y-10">
+          <div class="space-y-5">
             <img src="./assets/logo-footer.png" alt="">
             <p>
               ACME Industries Ltd.
               <br />
               Providing reliable tech since 1992
             </p>
-          </aside>
-          <nav>
+          </div>
+          <div class="flex flex-col gap-y-6">
             <a class="link link-hover">Product</a>
             <a class="link link-hover">Services</a>
             <a class="link link-hover">Contact us</a>
-          </nav>
-          <nav>
-            <h6 class="footer-title">Follow Us</h6>
+          </div>
+          <div>
+            <h6 class="footer-title pt-16">Follow Us</h6>
               <div class="space-x-10">
                   <i class="fa-brands fa-facebook"></i>
                   <i class="fa-brands fa-twitter"></i>
                   <i class="fa-brands fa-linkedin"></i>
               </div>
-          </nav>
+          </div>
         </div>
 
       </div>
